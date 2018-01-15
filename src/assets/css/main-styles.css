@@ -1,0 +1,294 @@
+body{
+	background:#f7f7f7 !important;
+	font-family:Arial, San-serif !important;
+    overflow-x:hidden !important;
+	font-size:12px !important;
+}
+.bluetext{color:#0c77ce !important}
+.blktext{color:#000000 !important}
+.orgtext{color:#c9a81b !important}
+.lightorgbg{background:#f7e7ad !important}
+
+
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+
+      html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -42px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 42px;
+		padding-top:11px;
+      }
+      #footer {
+        background-color: #e6e6e6;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+
+
+      /* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+      #wrap > .container {
+        padding-top: 60px;
+      }
+      .container .credit {
+        margin: 20px 0;
+      }
+
+      code {
+        font-size: 80%;
+      }
+	  
+	  @media only screen and (min-device-width : 320px) and (max-device-width : 768px){
+		  #wrap{
+			  margin:0 auto -60px !important;
+		  }
+		  .m-b-10-mb{
+			  margin-bottom:10px;
+		  }
+		  .container > .navbar-header{
+			  margin-right: 0px !important;
+		  }
+		  #main .container{
+			  line-header:516px !important;
+		  }
+		  .navbar-default .navbar-brand{
+	padding:15px 15px 15px 15px !important;
+}
+	  }
+
+.navbar-default{
+	background:#2d3e50 !important;
+}
+.navbar-default .navbar-brand{
+	color:#ffffff !important;
+	margin-left:0px !important;
+	padding:15px 15px 15px 0px;
+}
+.lead{
+	font-size:14px !important;
+	margin-bottom:10px !important;
+}
+#main{
+	padding-top:50px;
+	padding-bottom:50px;
+}	
+#main .container{
+	background:#ffffff;
+	min-height:600px;
+}
+.simpletext{
+	pointer-events:none;
+}
+.navbar-default .navbar-nav > li > a{
+	color:#56c787;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color:#56c787;
+}
+.wtlinkbtn{
+	color:#42a5f5 ;
+}
+.wtlinkbtn:hover{
+	color:#42a5f5 !important;
+}
+.redlinkbtn{
+	color:#ff0000 !important ;
+}
+.redlinkbtn:hover{
+	color:#cc0000 !important;
+}
+.greylinkbtn{
+	color:#2d3e50 !important ;
+}
+.greylinkbtn:hover{
+	color:#2d3e50 !important;
+}
+
+.lightbluetext{
+	color:#aedfff !important;
+}
+.greytext{
+	color:#999999 !important;
+}
+.whitetext{
+	color:#ffffff !important;
+}
+.m-l-5{
+	margin-left:5px;
+}
+.m-l-10{
+	margin-left:10px;
+}
+.m-l-15{
+	margin-left:15px;
+}
+.m-l-20{
+	margin-left:20px;
+}
+
+.m-t-5{
+	margin-top:5px;
+}
+.m-t-10{
+	margin-top:10px;
+}
+.m-t-15{
+	margin-top:15px;
+}
+.m-t-20{
+	margin-top:20px;
+}
+.m-b-5{
+	margin-bottom:5px;
+}
+.m-b-10{
+	margin-bottom:10px !important;
+}
+.m-b-15{
+	margin-bottom:15px;
+}
+.m-b-20{
+	margin-bottom:20px;
+}
+
+.m-r-5{
+	margin-right:5px;
+}
+.m-r-10{
+	margin-right:10px;
+}
+.m-r-15{
+	margin-right:15px;
+}
+.m-r-20{
+	margin-right:20px;
+}
+
+h1{
+	font-size:28px !important;
+	border-bottom: solid 1px #cccccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+input[type=text] {
+    width: 100% !important;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+/* input[type=text]#myInp {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url(../images/searchicon.png);
+    background-position: 10px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width .4s ease-in-out;
+    transition: width .4s ease-in-out;
+} */
+.table{
+	border:solid 1px #cccccc !important;
+}
+.btn-primary{
+	background:#0796c6 !important;
+	border:solid 1px #0796c6 !important;
+}
+.btn-primary:hover{
+	background:#1b91f1 !important;
+	border:solid 1px #1b91f1 !important;
+}
+.navbar-toggle{
+	margin-right:0px !important;
+}
+.form-control-feedback{
+	position:absolute;
+	top:11px;
+	right:11px;
+	color:#666666;
+	z-index:2;
+	width:34px;
+	height:34px;
+	text-align:center;
+}
+.table > thead > tr > th{
+	background:#56c787 !important;
+	color:#ffffff !important;
+}
+.modal-header{
+	padding:6px 10px !important;
+	background:#56c787 !important;
+	border-top-left-radius:6px !important;
+	border-top-right-radius:6px !important;
+}
+.modal-header h4{
+	color:#ffffff !important;
+}
+.form-group{
+	margin-bottom:0;
+}
+.bs-example{
+    	margin: 200px 150px 0;
+    }
+    .popover-title .close{
+        position: relative;
+        bottom: 3px;
+		float: left;
+    margin-right: 5px;
+    }
+	.popover-content p{
+		font-size:11px;
+	}
+	.popover-title{
+		width:273px !important;
+	}
+	.modal-footer{
+		text-align:center !important;
+	}
+	
+	
+	.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
